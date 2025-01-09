@@ -1,0 +1,15 @@
+header {
+  max-height: 12vh;
+  box-shadow: black 10px -12px 180px;
+  border-radius: 5px;
+}
+
+header img {
+  border-radius: 15px;
+  max-height: 65px;
+  max-width: 85px;
+}
+
+nav ul li a img {
+  width: 40px;
+}
