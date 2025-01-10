@@ -1,0 +1,9 @@
+.containerMedia {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 15px 35px, rgba(0, 0, 0, 0.1) 0px 10px 15px;
+}
+
+.containerMedia img {
+  border-radius: 20px;
+}

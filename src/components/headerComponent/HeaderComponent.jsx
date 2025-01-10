@@ -1,8 +1,7 @@
-import { FaLinkedin, FaGithub } from "react-icons/fa";
 import logo from "../../assets/img/logo.png";
 
 import "./HeaderComponent.css";
-import { NavComponent } from "../navComponent/NavComponent";
+import { NavComponent } from "./navComponent/NavComponent";
 
 export const HeaderComponent = () => {
   return (

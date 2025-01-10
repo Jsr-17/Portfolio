@@ -1,0 +1,27 @@
+.github-link {
+  text-decoration: none;
+  color: #000;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+  position: relative;
+}
+
+.github-link::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  display: block;
+  margin-top: 5px;
+  right: 0;
+  background: #000;
+  transition: width 0.3s ease;
+}
+
+.github-link:hover {
+  color: #333;
+}
+
+.github-link:hover::after {
+  width: 100%;
+  left: 0;
+}

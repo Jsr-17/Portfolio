@@ -1,0 +1,29 @@
+a {
+  text-decoration: none;
+  color: black;
+  transition: all ease-in-out 0.3s;
+}
+ul li a.nav:hover {
+  text-decoration: underline #ffff 1px !important;
+  background-color: rgb(33, 33, 33);
+  padding: 14px 25px;
+  font-size: large;
+  color: #ffff;
+}
+
+ul li a.nav {
+  padding: 11px 15px;
+  border-radius: 7px;
+  border: solid 2px;
+}
+ul li a:hover {
+  padding: 8px 5px;
+}
+
+ul li a img:hover {
+  border-radius: 7px;
+}
+ul li a img {
+  transition: all ease-in-out 0.4;
+  border-radius: 0;
+}
