@@ -1,0 +1,42 @@
+.arrow {
+  display: inline-block;
+  margin-top: 80px;
+  border: solid 2px white;
+  transform: rotate(135deg);
+  animation: bounce 1s infinite;
+  cursor: pointer;
+}
+
+.machineLetter {
+  margin-left: 15px;
+  display: block;
+  font-family: monospace;
+  white-space: nowrap;
+  border-right: 4px solid;
+  width: 440px;
+  animation: typing 2s steps(10), blink 0.5s infinite step-end alternate;
+  overflow: hidden;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-7px);
+  }
+}

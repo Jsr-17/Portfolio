@@ -3,7 +3,7 @@ import "./AboutMeComponent.css";
 
 export const AboutMeComponent = () => {
   return (
-    <section className="container-fluid  mt-5">
+    <section className="container-fluid  mt-3">
       <div className="row d-flex align-items-center justify-content-center">
         <h2 className="col-12 text-center my-5">
           <span className=" p-3  containerMedia">About Me</span>
@@ -15,13 +15,13 @@ export const AboutMeComponent = () => {
           <div className="container text-center py-5  containerMedia  border border-2 border-dark">
             <h1 className="display-4">Hi World</h1>
             <p className="lead">
-              It’s a pleasure to introduce myself. I’m Jose Antonio, and I am
-              passionate about learning programming and expanding my knowledge
-              in both AI and process automation, particularly in the areas of
-              application development and maintenance. I’m fascinated by how
-              development empowers programmers to create powerful systems using
-              simple lines of code and logic, making life significantly more
-              convenient.click here ----{">"}
+              It’s a pleasure to introduce myself. I'm passionate about learning
+              programming and expanding my knowledge in both AI and process
+              automation, particularly in the areas of application development
+              and maintenance. I’m fascinated by how development empowers
+              programmers to create powerful systems using simple lines of code
+              and logic, making life significantly more convenient.Click here
+              ----{">"}
               <a href="#" className="link">
                 on this link.
               </a>

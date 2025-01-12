@@ -1,0 +1,44 @@
+.navbar-toggler {
+  border: none;
+  background-color: transparent;
+}
+.close {
+  transition: all 0.3 ease-out;
+}
+
+.navbar-toggler-icon {
+  background-color: #333;
+  width: 30px;
+  height: 3px;
+}
+
+.navbar-nav {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-link {
+  padding: 2px;
+  text-decoration: none;
+  color: #333;
+  font-size: 15px;
+}
+
+.nav-link:hover {
+  color: #ffff;
+  background-color: black;
+}
+
+@media (max-width: 576px) {
+  .navbar-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav-item + .nav-item {
+    margin-top: 2px;
+  }
+}

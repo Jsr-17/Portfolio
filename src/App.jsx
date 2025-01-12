@@ -1,18 +1,13 @@
 import "./App.css";
-import { AboutMeComponent } from "./components/aboutMe/AboutMeComponent";
-import { HeaderComponent } from "./components/headerComponent/HeaderComponent";
-import { HeroComponent } from "./components/heroComponent/HeroComponent";
-import { ProyectsComponent } from "./components/proyectsComponent/ProyectsComponent";
+import { ClickOpenComponent } from "./components/clickOpenComponent";
+
+import { LandingPageComponent } from "./components/landingPageComponent/LandingPageComponent";
+import { ProyectsPageComponent } from "./components/proyectsPageComponent";
 
 function App() {
-  return (
-    <>
-      <HeaderComponent></HeaderComponent>
-      <HeroComponent></HeroComponent>
-      <ProyectsComponent></ProyectsComponent>
-      <AboutMeComponent></AboutMeComponent>
-    </>
-  );
+  // return <ClickOpenComponent></ClickOpenComponent>;
+  //return <LandingPageComponent></LandingPageComponent>;
+  return <ProyectsPageComponent></ProyectsPageComponent>;
 }
 
 export default App;
