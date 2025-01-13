@@ -20,7 +20,7 @@ export const HeroProyectsPageComponent = () => {
       <div className="container d-flex justify-content-center align-items-center">
         <div className="row my-2">
           <h2 className="text-center col-12 col-md-6 my-4">
-            <span className="containerMedia p-2 ">Section Proyects</span>
+            <span className="containerMedia p-3 ">Section Proyects</span>
           </h2>
           <div className="col-12 col-md-6 d-flex flex-column justify-content-center align-items-center containerMedia p-3">
             <h2
