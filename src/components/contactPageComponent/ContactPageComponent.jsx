@@ -3,6 +3,7 @@ import { HeaderComponent } from "../headerComponent/index";
 import { FooterComponent } from "../footerComponent/index";
 import { FaInstagram, FaLinkedin } from "react-icons/fa";
 import { MdEmail, MdOutlineEmail } from "react-icons/md";
+
 export const ContactPageComponent = () => {
   return (
     <>
