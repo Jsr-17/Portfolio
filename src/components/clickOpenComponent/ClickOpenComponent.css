@@ -13,8 +13,8 @@
   font-family: monospace;
   white-space: nowrap;
   border-right: 4px solid;
-  width: 440px;
-  animation: typing 2s steps(10), blink 0.5s infinite step-end alternate;
+  width: 540px;
+  animation: typing 3s steps(10), blink 0.5s infinite step-end alternate;
   overflow: hidden;
 }
 

@@ -9,7 +9,7 @@ export const ClickOpenComponent = () => {
     >
       <div className="d-flex flex-column align-items-center justify-content-center text-center w-100 h-100 bg-dark border border-4 rounded-3 text-white">
         <p className="mt-5 machineLetter">
-          I am José A. Román Moreno a FullStack Developer
+          I'm José A. Román Moreno a FullStack Developer
         </p>
         <span className="arrow bounce">
           <svg

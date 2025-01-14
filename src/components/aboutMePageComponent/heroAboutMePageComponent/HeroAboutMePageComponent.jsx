@@ -5,16 +5,16 @@ export const HeroAboutMePageComponent = () => {
     <section className="container-fluid  d-flex align-items-center justify-content-center flex-column my-3">
       <h1 className="containerSize p-3 my-3">About Me</h1>
       <div className="row">
-        <div className="col-md-2"></div>
-        <div className="col-md-3 d-flex align-items-center justify-content-center col-12">
+        <div className="col-lg-2"></div>
+        <div className="col-lg-3 d-flex align-items-center justify-content-center col-12">
           <img
             src="src\assets\img\logo.png"
-            className="img-fluid containerSize border border-2 border-dark"
+            className="img-fluid containerSize border border-2 border-dark w-75"
             alt=""
           />
         </div>
-        <div className="col-md-1"></div>
-        <div className="col-md-5 col-12">
+        <div className="col-lg-1"></div>
+        <div className="col-lg-5 col-12">
           <div className="d-flex align-items-center justify-content-center h-100">
             <div class="p-3 bg-light text-dark border border-secondary rounded-3 shadow-lg my-3">
               <h2 class="text-center  display-4 fw-bold mb-4 ">Meet José!</h2>{" "}
@@ -56,7 +56,6 @@ export const HeroAboutMePageComponent = () => {
             </div>
           </div>
         </div>
-        {/* añadir lenguajes???? */}
       </div>
     </section>
   );
