@@ -1,9 +1,9 @@
 import "./App.css";
+import { AboutMePageComponent } from "./components/aboutMePageComponent";
 import { ClickOpenComponent } from "./components/clickOpenComponent";
 
 import { LandingPageComponent } from "./components/landingPageComponent/LandingPageComponent";
 import { ProyectsPageComponent } from "./components/proyectsPageComponent";
-import { AboutMePageComponent } from "./components/AboutMePageComponent/AboutMePageComponent";
 
 function App() {
   // return <ClickOpenComponent></ClickOpenComponent>;

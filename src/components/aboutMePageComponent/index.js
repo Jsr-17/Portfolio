@@ -1,1 +1,1 @@
-export * from "AboutMePageComponent";
+export * from "./AboutMePageComponent";
