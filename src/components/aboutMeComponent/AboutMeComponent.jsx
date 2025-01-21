@@ -1,5 +1,6 @@
 import React from "react";
 import "./AboutMeComponent.css";
+import { Link } from "react-router-dom";
 
 export const AboutMeComponent = () => {
   return (
@@ -20,11 +21,7 @@ export const AboutMeComponent = () => {
               automation, particularly in the areas of application development
               and maintenance. I’m fascinated by how development empowers
               programmers to create powerful systems using simple lines of code
-              and logic, making life significantly more convenient.Click here
-              ----{">"}
-              <a href="#" className="link">
-                on this link.
-              </a>
+              and logic, making life significantly more convenient.
             </p>
           </div>
         </div>

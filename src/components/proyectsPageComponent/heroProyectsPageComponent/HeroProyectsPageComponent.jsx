@@ -11,9 +11,29 @@ class Proyect {
 
 export const HeroProyectsPageComponent = () => {
   const proyecto1 = new Proyect(
-    "ejemplo",
-    "src/assets/img/logo.png",
-    "texto de ejemplo"
+    "The Blackjack",
+    "./src/assets/img/blackJackImg.png",
+    "A fullstack game where you can play 1-6 players or animous player"
+  );
+  const proyecto3 = new Proyect(
+    "Who I Am ?",
+    "./src/assets/img/quienSoyImg.png",
+    "The tipical who is who game made with javascript and css with SrNoelll"
+  );
+  const proyecto2 = new Proyect(
+    "The Hang-Man",
+    "./src/assets/img/hangmanImg.png",
+    "The game of the Hagman with funny sounds!!"
+  );
+  const proyecto4 = new Proyect(
+    "Three In Line",
+    "./src/assets/img/threeInLineImg.png",
+    "This game was made in Java to have fun two persons!!"
+  );
+  const proyecto5 = new Proyect(
+    "Soup Letters",
+    "./src/assets/img/soupLetterImg.png",
+    "This is my version of the Soup letters in java, I really love that game"
   );
   return (
     <div className="container-fluid mt-3">
@@ -63,7 +83,7 @@ export const HeroProyectsPageComponent = () => {
         <div className="col-lg-4 "></div>
         <div className="col-lg-3 my-2">
           <ProyectComponentProyectPage
-            {...proyecto1}
+            {...proyecto2}
           ></ProyectComponentProyectPage>
         </div>
         <div className="col-lg-1 "></div>
@@ -72,7 +92,7 @@ export const HeroProyectsPageComponent = () => {
         <div className="col-lg-4"></div>
         <div className="col-lg-4 ">
           <ProyectComponentProyectPage
-            {...proyecto1}
+            {...proyecto3}
           ></ProyectComponentProyectPage>
         </div>
         <div className="col-lg-4"></div>
@@ -81,13 +101,13 @@ export const HeroProyectsPageComponent = () => {
         <div className="col-lg-1 "></div>
         <div className="col-lg-3 my-2 ">
           <ProyectComponentProyectPage
-            {...proyecto1}
+            {...proyecto4}
           ></ProyectComponentProyectPage>
         </div>
         <div className="col-lg-4 "></div>
         <div className="col-lg-3 my-2">
           <ProyectComponentProyectPage
-            {...proyecto1}
+            {...proyecto5}
           ></ProyectComponentProyectPage>
         </div>
         <div className="col-lg-1 "></div>
