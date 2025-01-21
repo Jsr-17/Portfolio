@@ -11,9 +11,19 @@ class Proyect {
 
 export const ProyectsComponent = () => {
   const proyecto1 = new Proyect(
-    "ejemplo",
-    "src/assets/img/logo.png",
-    "texto de ejemplo"
+    "The Blackjack",
+    "assets/img/blackJackImg.png",
+    "A fullstack game where you can play 1-6 players or animous player"
+  );
+  const proyecto2 = new Proyect(
+    "who I am ?",
+    "assets/img/quienSoyImg.png",
+    "The tipical who is who game made with javascript and css with SrNoelll"
+  );
+  const proyecto3 = new Proyect(
+    "The Hang-Man",
+    "assets/img/hangmanImg.png",
+    "The game of the Hagman with funny sounds!!"
   );
 
   return (
@@ -24,8 +34,8 @@ export const ProyectsComponent = () => {
         </h2>
         <div className="d-flex justify-content-center align-items-center gap-1 row containerMedia  border border-2 border-dark py-4">
           <ProyectComponent {...proyecto1} />
-          <ProyectComponent {...proyecto1} />
-          <ProyectComponent {...proyecto1} />
+          <ProyectComponent {...proyecto2} />
+          <ProyectComponent {...proyecto3} />
           <div className="mb-2"></div>
           <div className="d-flex justify-content-center align-items-center gap-4 row">
             <p className="text-center text-muted">
