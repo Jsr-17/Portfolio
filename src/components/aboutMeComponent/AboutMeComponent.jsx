@@ -1,6 +1,6 @@
 import React from "react";
 import "./AboutMeComponent.css";
-import { Link } from "react-router-dom";
+import logo from "../../assets/img/logo.png";
 
 export const AboutMeComponent = () => {
   return (
@@ -28,11 +28,7 @@ export const AboutMeComponent = () => {
 
         <div className="col-md-1"></div>
         <div className="col-12 col-md-3 d-flex align-items-center justify-content-center containerMedia mt-3 border border-2 border-dark">
-          <img
-            src="src/assets/img/logo.png"
-            alt=""
-            className="img-fluid p-1 py-3 "
-          />
+          <img src={logo} alt="" className="img-fluid p-1 py-3 " />
         </div>
         <div className="col-md-1"></div>
       </div>

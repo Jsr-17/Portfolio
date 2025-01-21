@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "../../../assets/img/logo.png";
 
 export const HeroAboutMePageComponent = () => {
   return (
@@ -7,7 +8,7 @@ export const HeroAboutMePageComponent = () => {
       <div className="row">
         <div className="col-lg-5 d-flex align-items-center justify-content-center col-12">
           <img
-            src="src\assets\img\logo.png"
+            src={logo}
             className="img-fluid containerSize border border-2 border-dark w-75"
             alt=""
           />

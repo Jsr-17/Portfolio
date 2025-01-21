@@ -1,6 +1,10 @@
 import React from "react";
 import { ProyectComponent } from "./proyectComponent/ProyectComponent";
 import "./ProyectsComponent.css";
+import img1 from "../../assets/img/blackJackImg.png";
+import img2 from "../../assets/img/quienSoyImg.png";
+import img3 from "../../assets/img/hangmanImg.png";
+
 class Proyect {
   constructor(proyectName, proyectImg, proyectDescription) {
     this.proyectName = proyectName;
@@ -12,17 +16,17 @@ class Proyect {
 export const ProyectsComponent = () => {
   const proyecto1 = new Proyect(
     "The Blackjack",
-    "assets/img/blackJackImg.png",
+    img1,
     "A fullstack game where you can play 1-6 players or animous player"
   );
   const proyecto2 = new Proyect(
     "who I am ?",
-    "assets/img/quienSoyImg.png",
+    img2,
     "The tipical who is who game made with javascript and css with SrNoelll"
   );
   const proyecto3 = new Proyect(
     "The Hang-Man",
-    "assets/img/hangmanImg.png",
+    img3,
     "The game of the Hagman with funny sounds!!"
   );
 

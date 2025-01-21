@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./MovileNavComponent.css";
 import { Link } from "react-router-dom";
-import { Link } from "react-router-dom";
 
 export const MovileNavComponent = () => {
   const [isOpen, setIsOpen] = useState(false);

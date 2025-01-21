@@ -1,5 +1,10 @@
 import React from "react";
 import { ProyectComponentProyectPage } from "./proyectComponentProyectPage/ProyectComponentProyectPage";
+import img1 from "../../../assets/img/blackJackImg.png";
+import img2 from "../../../assets/img/quienSoyImg.png";
+import img3 from "../../../assets/img/hangmanImg.png";
+import img4 from "../../../assets/img/threeInLineImg.png";
+import img5 from "../../../assets/img/soupLetterImg.png";
 
 class Proyect {
   constructor(proyectName, proyectImg, proyectDescription) {
@@ -12,27 +17,27 @@ class Proyect {
 export const HeroProyectsPageComponent = () => {
   const proyecto1 = new Proyect(
     "The Blackjack",
-    "./src/assets/img/blackJackImg.png",
+    img1,
     "A fullstack game where you can play 1-6 players or animous player"
   );
   const proyecto3 = new Proyect(
     "Who I Am ?",
-    "./src/assets/img/quienSoyImg.png",
+    img2,
     "The tipical who is who game made with javascript and css with SrNoelll"
   );
   const proyecto2 = new Proyect(
     "The Hang-Man",
-    "./src/assets/img/hangmanImg.png",
+    img3,
     "The game of the Hagman with funny sounds!!"
   );
   const proyecto4 = new Proyect(
     "Three In Line",
-    "./src/assets/img/threeInLineImg.png",
+    img4,
     "This game was made in Java to have fun two persons!!"
   );
   const proyecto5 = new Proyect(
     "Soup Letters",
-    "./src/assets/img/soupLetterImg.png",
+    img5,
     "This is my version of the Soup letters in java, I really love that game"
   );
   return (
