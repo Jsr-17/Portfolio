@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./MovileNavComponent.css";
+import { Link } from "react-router-dom";
 
 export const MovileNavComponent = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,24 +17,24 @@ export const MovileNavComponent = () => {
       >
         <ul className="navbar-nav text-center">
           <li className={`nav-item`}>
-            <a className="nav-link" href="#">
+            <Link className="nav-link" href="#" to={"/home"}>
               Home
-            </a>
+            </Link>
           </li>
           <li className="nav-item ">
-            <a className="nav-link" href="#">
+            <Link className="nav-link" href="#" to={"/home"}>
               About Me
-            </a>
+            </Link>
           </li>
           <li className="nav-item ">
-            <a className="nav-link" href="#">
+            <Link className="nav-link" href="#" to={"/home"}>
               Contact
-            </a>
+            </Link>
           </li>
           <li className="nav-item mb-1 ">
-            <a className="nav-link" href="#">
+            <Link className="nav-link" href="#" to={"/home"}>
               Projects
-            </a>
+            </Link>
           </li>
         </ul>
       </div>

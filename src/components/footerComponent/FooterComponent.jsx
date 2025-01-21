@@ -1,5 +1,6 @@
 import React from "react";
 import "./FooterComponent.css";
+import { Link } from "react-router-dom";
 
 export const FooterComponent = () => {
   return (
@@ -11,24 +12,40 @@ export const FooterComponent = () => {
         <div className="small">
           <ul className="list-unstyled d-flex justify-content-center mb-0 col-12 my-1 ">
             <li className="mx-2">
-              <a href="" className="text-dark text-decoration-none  link">
+              <Link
+                href=""
+                className="text-dark text-decoration-none  link"
+                to={"/home"}
+              >
                 Home
-              </a>
+              </Link>
             </li>
             <li className="mx-2">
-              <a href="" className="text-dark text-decoration-none  link">
+              <Link
+                href=""
+                className="text-dark text-decoration-none  link"
+                to={"/proyects"}
+              >
                 Projects
-              </a>
+              </Link>
             </li>
             <li className="mx-2">
-              <a href="" className="text-dark text-decoration-none  link">
+              <Link
+                href=""
+                className="text-dark text-decoration-none  link"
+                to={"/aboutMe"}
+              >
                 About Me
-              </a>
+              </Link>
             </li>
             <li className="mx-2">
-              <a href="" className="text-dark text-decoration-none link">
+              <Link
+                href=""
+                className="text-dark text-decoration-none link"
+                to={"/contact"}
+              >
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
