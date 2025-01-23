@@ -4,7 +4,7 @@ import { LandingPageComponent } from "../components/landingPageComponent/Landing
 import { ProyectsPageComponent } from "../components/proyectsPageComponent/index";
 import { AboutMePageComponent } from "../components/aboutMePageComponent/index";
 import { ContactPageComponent } from "../components/contactPageComponent/index";
-import { Route, Routes } from "react-router-dom";
+import {Navigate, Route, Routes } from "react-router-dom";
 
 export const RouterAplication = () => {
   return (
@@ -17,7 +17,7 @@ export const RouterAplication = () => {
         <Route path="/contact" element={<ContactPageComponent />}></Route>
         <Route
           path="/*"
-          element={<LandingPageComponent></LandingPageComponent>}
+          element={<Navigate to={"/home"}
         ></Route>
       </Routes>
     </div>
