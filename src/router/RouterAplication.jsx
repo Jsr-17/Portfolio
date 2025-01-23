@@ -16,7 +16,7 @@ export const RouterAplication = () => {
         <Route path="/aboutMe" element={<AboutMePageComponent />}></Route>
         <Route path="/contact" element={<ContactPageComponent />}></Route>
         <Route
-          path="*"
+          path="/*"
           element={<LandingPageComponent></LandingPageComponent>}
         ></Route>
       </Routes>
