@@ -15,6 +15,10 @@ export const RouterAplication = () => {
         <Route path="/proyects" element={<ProyectsPageComponent />}></Route>
         <Route path="/aboutMe" element={<AboutMePageComponent />}></Route>
         <Route path="/contact" element={<ContactPageComponent />}></Route>
+        <Route
+          path="*"
+          element={<LandingPageComponent></LandingPageComponent>}
+        ></Route>
       </Routes>
     </div>
   );
