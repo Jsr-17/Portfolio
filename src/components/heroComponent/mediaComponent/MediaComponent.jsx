@@ -1,5 +1,6 @@
 import React from "react";
-import logo from "../../../assets/img/logo.png";
+import logo from "../../../assets/img/img-me.jpeg";
+
 import "./MediaComponent.css";
 
 export const MediaComponent = () => {
