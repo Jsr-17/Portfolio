@@ -39,7 +39,12 @@ export const ContactPageComponent = () => {
                   <h4>Instagram</h4>
                   <p className="d-flex align-items-center">
                     <FaInstagram className="me-2" size="1.5em"></FaInstagram>
-                    <span>Jsr-17Developer</span>
+                    <a
+                      href="https://www.instagram.com/jsr17_developer/"
+                      className="text-decoration-none"
+                    >
+                      jsr17_developer
+                    </a>
                   </p>
                 </div>
               </div>
